@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!--  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/dropifi_style.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <section id="widget_container">
+      <div id="horizontal_toggle" class="horizontal_button_right">
+        <div class="horizontal_img">
+          <img src="https://s3.amazonaws.com/dropifi_widget_tab/dropifi/tab_text.png?v=1403087311103" alt"Feedback">
+        </div>
+      </div>
+
+      <div id="vertical_toggle" class="vertical_button">
+        <div class="vertical_img">
+          <img src="images/tab_text.png" alt"Feedback">
+        </div>
+      </div>
+  
+      <div id="dropifiwidget_contact_right_side" class="dropifiwidget_hide">
+        <iframe id="dropifiwidget_iframe" src="#" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </section>
+    
+    <section>
+      <select class="form-control" id="widget-postion" style="position: absolute; top:60%; left: 10%;">
+        <option id="right-widget" value="right">Right</option>
+        <option id="left-widget" value="left">Left</option>
+        <option id="top-widget" value="top">Top</option>
+        <option id="bottom-widget" value="bottom">Bottom</option>
+      </select>
+    </section>
+
+    <!-- Javascript and JQuery for Dropifi widget -->
+    <!--<script src="js/dropifiQuery.min.js"></script>-->
+    <script src="js/jQuery-1.11.1.min.js"></script>
+    <script src="js/easyXDM.min.js"></script>
+    <script src="js/jqueryWidget.js"></script>
+    <script src="js/XDMexternal.js"></script>
+
+    
+  </body>
+</html>
