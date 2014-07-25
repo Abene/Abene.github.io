@@ -6,14 +6,14 @@
 		$("#vertical_toggle").addClass("vertical_buttonHide");
 
 		/*Changing the content of the Iframe*/
-		var srcAttr = $('#dropifiwidget_iframe');
+		/*var srcAttr = $('#dropifiwidget_iframe');
 		var screenWidth = window.screen.width;
 		if(screenWidth == 480){
-			srcAttr.attr('src','content_widget2.html');
+			srcAttr.attr('src','content_widget2'
 		}
 		else{
 			srcAttr.attr('src','content_widget.html');
-		}
+		};*/
 		
 		//var widgetPlacer = document.getElementById("widget-postion").value;
 		var widgetPlacer = $('#widget-postion').find(":selected").val();
@@ -62,8 +62,8 @@
 
 		/*$('#close-button').on('click', function () {
 			$('#dropifiwidget_contact_right_side').HorizontalSlideToggle(300, function() {console.log('complete!')});	
-		});*/
-
+		});
+*/
 		
 	$.fn.VerticalSlideToggle = function (speed, fn){
 			this.animate({

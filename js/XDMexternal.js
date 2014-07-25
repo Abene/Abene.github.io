@@ -2,8 +2,6 @@
     // $(document).ready(function(){
         $(function(){
 
-
-
             var widgetObject = {
 
                 //outer javascript
@@ -29,6 +27,7 @@
                     iframe.scrolling = 'no';
                     iframe.marginheight="0px";
                     iframe.marginwidth="0px";
+                    iframe.src="content_widget.html";
                     iframe.style.height = "100%";
                     iframe.style.width = "100%";
                     iframe.style.overflow="hidden";
@@ -83,10 +82,7 @@ toArrayJSon: function(message){
     return arr;
 }
 
-
 };
-
-console.log(widgetObject.cheetahWidget2012_IframeHeight('31f362ca9dd8c3a7b9d75fff18ec1615-1406286386228','top','http://www.google.com','pluginType','outTime'));
 
 });
 
@@ -95,6 +91,3 @@ console.log(widgetObject.cheetahWidget2012_IframeHeight('31f362ca9dd8c3a7b9d75ff
 
 
 // })();
-
-
-// <!-- start Dropifi --> <script type='text/javascript' src='//s3.amazonaws.com/dropifi/js/widget/dropifi_widget.min.js'></script><script type='text/javascript'>document.renderDropifiWidget('31f362ca9dd8c3a7b9d75fff18ec1615-1406286386228');</script> <!-- end Dropifi -->

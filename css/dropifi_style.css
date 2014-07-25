@@ -113,11 +113,10 @@ body{
 }
 
 iframe{
-	min-height: 400px;
-	overflow: auto;
+	min-height: 450px;
  	overflow: -moz-scrollbars-none;
-
 }
+
 ::-webkit-scrollbar { 
     display: none; 
 }
@@ -196,7 +195,7 @@ textarea{
 	text-align: center;
 	position: relative;
 	/*left:109%;*/
-	margin-bottom: 12%;
+	margin-bottom: 7%;
 	margin-top: 5%;
 
 }
