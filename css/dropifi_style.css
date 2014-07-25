@@ -112,7 +112,7 @@ body{
 }
 
 iframe{
-	min-height: 500px;
+	max-height: 450px;
 }
 
 /*Styling for iframe*/
