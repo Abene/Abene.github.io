@@ -84,6 +84,7 @@ body{
 	position: fixed;
 	z-index: 99999999;
 	box-sizing: content-box;
+	overflow: hidden;
 }
 
 .dropifiwidget_hideRight{
@@ -112,8 +113,15 @@ body{
 }
 
 iframe{
-	max-height: 450px;
+	min-height: 400px;
+	overflow: auto;
+ 	overflow: -moz-scrollbars-none;
+
 }
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 
 /*Styling for iframe*/
 .widget-container{
@@ -187,7 +195,7 @@ textarea{
 	min-width: 100px;
 	text-align: center;
 	position: relative;
-	left:109%;
+	/*left:109%;*/
 	margin-bottom: 12%;
 	margin-top: 5%;
 
@@ -195,8 +203,8 @@ textarea{
 
 
 /*Mozilla browser compactibilty fixer*/
-@-moz-document url-prefix() { 
+/*@-moz-document url-prefix() { 
 textarea {
     width: 250px;
   }
-}
+}*/
